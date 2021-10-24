@@ -15,4 +15,8 @@ defmodule ElixirExample do
   def hello do
     :world
   end
+
+  def main do
+    IO.puts(hello())
+  end
 end
